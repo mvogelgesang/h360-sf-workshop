@@ -49,6 +49,14 @@ for the Dreamforce showcase. That's the reusable skill partners take home.
 2. Install **Claude Code** + the **`agentforce-adlc`** and **`sf-mcp-partner-toolkit`** plugins.
    - `agentforce-adlc` — build/preview/test/deploy the agent and its actions.
    - `sf-mcp-partner-toolkit` — scaffold/deploy/diagnose MCP integration (used in Module 3, Connect).
+
+   ```bash
+   claude plugin marketplace add SalesforceAIResearch/agentforce-adlc
+   claude plugin install agentforce-adlc@agentforce-adlc
+   claude plugin marketplace add mvogelgesang/sf-mcp-partner-toolkit
+   claude plugin install sf-mcp-partner-toolkit@mvogelgesang-plugins
+   ```
+
 3. **Clone the kit and set up.** Open a terminal, go to the folder where you keep code (e.g. `~/claude-projects`), then
    run these one at a time:
    ```bash
